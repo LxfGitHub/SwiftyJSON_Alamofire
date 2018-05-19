@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		804F75D29D5BD583BEEBF1D2 /* Pods_SJson_Alamo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF146DF11556322CFA1CA86 /* Pods_SJson_Alamo.framework */; };
+		ACB3C0AE20AFFFF500F0F90C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3C0AD20AFFFF500F0F90C /* AppDelegate.swift */; };
+		ACB3C0B020AFFFF500F0F90C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3C0AF20AFFFF500F0F90C /* ViewController.swift */; };
+		ACB3C0B320AFFFF500F0F90C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB3C0B120AFFFF500F0F90C /* Main.storyboard */; };
+		ACB3C0B520AFFFF500F0F90C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB3C0B420AFFFF500F0F90C /* Assets.xcassets */; };
+		ACB3C0B820AFFFF500F0F90C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB3C0B620AFFFF500F0F90C /* LaunchScreen.storyboard */; };
+		ACB3C0C320AFFFF500F0F90C /* SJson_AlamoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3C0C220AFFFF500F0F90C /* SJson_AlamoTests.swift */; };
+		ACB3C0CE20AFFFF500F0F90C /* SJson_AlamoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3C0CD20AFFFF500F0F90C /* SJson_AlamoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACB3C0BF20AFFFF500F0F90C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACB3C0A220AFFFF500F0F90C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACB3C0A920AFFFF500F0F90C;
+			remoteInfo = SJson_Alamo;
+		};
+		ACB3C0CA20AFFFF500F0F90C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACB3C0A220AFFFF500F0F90C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACB3C0A920AFFFF500F0F90C;
+			remoteInfo = SJson_Alamo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BF146DF11556322CFA1CA86 /* Pods_SJson_Alamo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SJson_Alamo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB3C0AA20AFFFF500F0F90C /* SJson_Alamo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJson_Alamo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB3C0AD20AFFFF500F0F90C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACB3C0AF20AFFFF500F0F90C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACB3C0B220AFFFF500F0F90C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACB3C0B420AFFFF500F0F90C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACB3C0B720AFFFF500F0F90C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACB3C0B920AFFFF500F0F90C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB3C0BE20AFFFF500F0F90C /* SJson_AlamoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJson_AlamoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB3C0C220AFFFF500F0F90C /* SJson_AlamoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJson_AlamoTests.swift; sourceTree = "<group>"; };
+		ACB3C0C420AFFFF500F0F90C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB3C0C920AFFFF500F0F90C /* SJson_AlamoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJson_AlamoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB3C0CD20AFFFF500F0F90C /* SJson_AlamoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJson_AlamoUITests.swift; sourceTree = "<group>"; };
+		ACB3C0CF20AFFFF500F0F90C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF558F2F712DDF7105C3FFE7 /* Pods-SJson_Alamo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJson_Alamo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SJson_Alamo/Pods-SJson_Alamo.debug.xcconfig"; sourceTree = "<group>"; };
+		D81F1C0011C95FC08C083200 /* Pods-SJson_Alamo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJson_Alamo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SJson_Alamo/Pods-SJson_Alamo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACB3C0A720AFFFF500F0F90C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804F75D29D5BD583BEEBF1D2 /* Pods_SJson_Alamo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB3C0BB20AFFFF500F0F90C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB3C0C620AFFFF500F0F90C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2987187D22071EC9F2CA8309 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF558F2F712DDF7105C3FFE7 /* Pods-SJson_Alamo.debug.xcconfig */,
+				D81F1C0011C95FC08C083200 /* Pods-SJson_Alamo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ACB3C0A120AFFFF500F0F90C = {
+			isa = PBXGroup;
+			children = (
+				ACB3C0AC20AFFFF500F0F90C /* SJson_Alamo */,
+				ACB3C0C120AFFFF500F0F90C /* SJson_AlamoTests */,
+				ACB3C0CC20AFFFF500F0F90C /* SJson_AlamoUITests */,
+				ACB3C0AB20AFFFF500F0F90C /* Products */,
+				2987187D22071EC9F2CA8309 /* Pods */,
+				AD4C26E9BFE38275ABF89FA8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACB3C0AB20AFFFF500F0F90C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACB3C0AA20AFFFF500F0F90C /* SJson_Alamo.app */,
+				ACB3C0BE20AFFFF500F0F90C /* SJson_AlamoTests.xctest */,
+				ACB3C0C920AFFFF500F0F90C /* SJson_AlamoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACB3C0AC20AFFFF500F0F90C /* SJson_Alamo */ = {
+			isa = PBXGroup;
+			children = (
+				ACB3C0AD20AFFFF500F0F90C /* AppDelegate.swift */,
+				ACB3C0AF20AFFFF500F0F90C /* ViewController.swift */,
+				ACB3C0B120AFFFF500F0F90C /* Main.storyboard */,
+				ACB3C0B420AFFFF500F0F90C /* Assets.xcassets */,
+				ACB3C0B620AFFFF500F0F90C /* LaunchScreen.storyboard */,
+				ACB3C0B920AFFFF500F0F90C /* Info.plist */,
+			);
+			path = SJson_Alamo;
+			sourceTree = "<group>";
+		};
+		ACB3C0C120AFFFF500F0F90C /* SJson_AlamoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACB3C0C220AFFFF500F0F90C /* SJson_AlamoTests.swift */,
+				ACB3C0C420AFFFF500F0F90C /* Info.plist */,
+			);
+			path = SJson_AlamoTests;
+			sourceTree = "<group>";
+		};
+		ACB3C0CC20AFFFF500F0F90C /* SJson_AlamoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACB3C0CD20AFFFF500F0F90C /* SJson_AlamoUITests.swift */,
+				ACB3C0CF20AFFFF500F0F90C /* Info.plist */,
+			);
+			path = SJson_AlamoUITests;
+			sourceTree = "<group>";
+		};
+		AD4C26E9BFE38275ABF89FA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BF146DF11556322CFA1CA86 /* Pods_SJson_Alamo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACB3C0A920AFFFF500F0F90C /* SJson_Alamo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB3C0D220AFFFF500F0F90C /* Build configuration list for PBXNativeTarget "SJson_Alamo" */;
+			buildPhases = (
+				A18A0AC67CA694B021ACA750 /* [CP] Check Pods Manifest.lock */,
+				ACB3C0A620AFFFF500F0F90C /* Sources */,
+				ACB3C0A720AFFFF500F0F90C /* Frameworks */,
+				ACB3C0A820AFFFF500F0F90C /* Resources */,
+				96017D01EF5542E477267B9C /* [CP] Embed Pods Frameworks */,
+				8BC004CBF44D38159FBC75B3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SJson_Alamo;
+			productName = SJson_Alamo;
+			productReference = ACB3C0AA20AFFFF500F0F90C /* SJson_Alamo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACB3C0BD20AFFFF500F0F90C /* SJson_AlamoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB3C0D520AFFFF500F0F90C /* Build configuration list for PBXNativeTarget "SJson_AlamoTests" */;
+			buildPhases = (
+				ACB3C0BA20AFFFF500F0F90C /* Sources */,
+				ACB3C0BB20AFFFF500F0F90C /* Frameworks */,
+				ACB3C0BC20AFFFF500F0F90C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACB3C0C020AFFFF500F0F90C /* PBXTargetDependency */,
+			);
+			name = SJson_AlamoTests;
+			productName = SJson_AlamoTests;
+			productReference = ACB3C0BE20AFFFF500F0F90C /* SJson_AlamoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACB3C0C820AFFFF500F0F90C /* SJson_AlamoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB3C0D820AFFFF500F0F90C /* Build configuration list for PBXNativeTarget "SJson_AlamoUITests" */;
+			buildPhases = (
+				ACB3C0C520AFFFF500F0F90C /* Sources */,
+				ACB3C0C620AFFFF500F0F90C /* Frameworks */,
+				ACB3C0C720AFFFF500F0F90C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACB3C0CB20AFFFF500F0F90C /* PBXTargetDependency */,
+			);
+			name = SJson_AlamoUITests;
+			productName = SJson_AlamoUITests;
+			productReference = ACB3C0C920AFFFF500F0F90C /* SJson_AlamoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACB3C0A220AFFFF500F0F90C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = luoxiaofeng;
+				TargetAttributes = {
+					ACB3C0A920AFFFF500F0F90C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					ACB3C0BD20AFFFF500F0F90C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACB3C0A920AFFFF500F0F90C;
+					};
+					ACB3C0C820AFFFF500F0F90C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACB3C0A920AFFFF500F0F90C;
+					};
+				};
+			};
+			buildConfigurationList = ACB3C0A520AFFFF500F0F90C /* Build configuration list for PBXProject "SJson_Alamo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACB3C0A120AFFFF500F0F90C;
+			productRefGroup = ACB3C0AB20AFFFF500F0F90C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACB3C0A920AFFFF500F0F90C /* SJson_Alamo */,
+				ACB3C0BD20AFFFF500F0F90C /* SJson_AlamoTests */,
+				ACB3C0C820AFFFF500F0F90C /* SJson_AlamoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACB3C0A820AFFFF500F0F90C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB3C0B820AFFFF500F0F90C /* LaunchScreen.storyboard in Resources */,
+				ACB3C0B520AFFFF500F0F90C /* Assets.xcassets in Resources */,
+				ACB3C0B320AFFFF500F0F90C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB3C0BC20AFFFF500F0F90C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB3C0C720AFFFF500F0F90C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BC004CBF44D38159FBC75B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SJson_Alamo/Pods-SJson_Alamo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96017D01EF5542E477267B9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SJson_Alamo/Pods-SJson_Alamo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SJson_Alamo/Pods-SJson_Alamo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A18A0AC67CA694B021ACA750 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SJson_Alamo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACB3C0A620AFFFF500F0F90C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB3C0B020AFFFF500F0F90C /* ViewController.swift in Sources */,
+				ACB3C0AE20AFFFF500F0F90C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB3C0BA20AFFFF500F0F90C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB3C0C320AFFFF500F0F90C /* SJson_AlamoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB3C0C520AFFFF500F0F90C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACB3C0CE20AFFFF500F0F90C /* SJson_AlamoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACB3C0C020AFFFF500F0F90C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACB3C0A920AFFFF500F0F90C /* SJson_Alamo */;
+			targetProxy = ACB3C0BF20AFFFF500F0F90C /* PBXContainerItemProxy */;
+		};
+		ACB3C0CB20AFFFF500F0F90C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACB3C0A920AFFFF500F0F90C /* SJson_Alamo */;
+			targetProxy = ACB3C0CA20AFFFF500F0F90C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACB3C0B120AFFFF500F0F90C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACB3C0B220AFFFF500F0F90C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACB3C0B620AFFFF500F0F90C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACB3C0B720AFFFF500F0F90C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACB3C0D020AFFFF500F0F90C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACB3C0D120AFFFF500F0F90C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACB3C0D320AFFFF500F0F90C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF558F2F712DDF7105C3FFE7 /* Pods-SJson_Alamo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SJson_Alamo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fsi.register.SJson-Alamo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACB3C0D420AFFFF500F0F90C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D81F1C0011C95FC08C083200 /* Pods-SJson_Alamo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SJson_Alamo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fsi.register.SJson-Alamo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACB3C0D620AFFFF500F0F90C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SJson_AlamoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fsi.register.SJson-AlamoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SJson_Alamo.app/SJson_Alamo";
+			};
+			name = Debug;
+		};
+		ACB3C0D720AFFFF500F0F90C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SJson_AlamoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fsi.register.SJson-AlamoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SJson_Alamo.app/SJson_Alamo";
+			};
+			name = Release;
+		};
+		ACB3C0D920AFFFF500F0F90C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SJson_AlamoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fsi.register.SJson-AlamoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SJson_Alamo;
+			};
+			name = Debug;
+		};
+		ACB3C0DA20AFFFF500F0F90C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SJson_AlamoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fsi.register.SJson-AlamoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SJson_Alamo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACB3C0A520AFFFF500F0F90C /* Build configuration list for PBXProject "SJson_Alamo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB3C0D020AFFFF500F0F90C /* Debug */,
+				ACB3C0D120AFFFF500F0F90C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACB3C0D220AFFFF500F0F90C /* Build configuration list for PBXNativeTarget "SJson_Alamo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB3C0D320AFFFF500F0F90C /* Debug */,
+				ACB3C0D420AFFFF500F0F90C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACB3C0D520AFFFF500F0F90C /* Build configuration list for PBXNativeTarget "SJson_AlamoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB3C0D620AFFFF500F0F90C /* Debug */,
+				ACB3C0D720AFFFF500F0F90C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACB3C0D820AFFFF500F0F90C /* Build configuration list for PBXNativeTarget "SJson_AlamoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACB3C0D920AFFFF500F0F90C /* Debug */,
+				ACB3C0DA20AFFFF500F0F90C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACB3C0A220AFFFF500F0F90C /* Project object */;
+}
